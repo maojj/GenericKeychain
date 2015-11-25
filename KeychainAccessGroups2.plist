@@ -4,8 +4,8 @@
 <dict>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>YOUR_APP_ID_HERE.com.yourcompany.GenericKeychain2</string>
-		<string>YOUR_APP_ID_HERE.com.yourcompany.GenericKeychainSuite</string>
+		<string>29QXUV376B.com.fenbi.GenericKeychain2</string>
+		<string>29QXUV376B.com.fenbi.GenericKeychainSuite</string>
 	</array>
 </dict>
 </plist>

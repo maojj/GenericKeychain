@@ -69,12 +69,12 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application
 {    
-    KeychainItemWrapper *wrapper = [[KeychainItemWrapper alloc] initWithIdentifier:@"Password" accessGroup:nil];
+    KeychainItemWrapper *wrapper = [[KeychainItemWrapper alloc] initWithIdentifier:@"Password1" accessGroup:@"29QXUV376B.com.fenbi.GenericKeychainSuite"];
 	self.passwordItem = wrapper;
     detailViewController.passwordItem = wrapper;
     [wrapper release];
     
-	wrapper = [[KeychainItemWrapper alloc] initWithIdentifier:@"Account Number" accessGroup:@"YOUR_APP_ID_HERE.com.yourcompany.GenericKeychainSuite"];
+	wrapper = [[KeychainItemWrapper alloc] initWithIdentifier:@"account" accessGroup:@"29QXUV376B.com.fenbi.GenericKeychainSuite"];
     self.accountNumberItem = wrapper;
     detailViewController.accountNumberItem = wrapper;
     [wrapper release];
